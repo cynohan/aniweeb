@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>AniWeeb</title>
+  <meta name="description" content="AniWeeb"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="css/material-icons.css" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#00897B"/>
+  <style type="text/css">
+    .slider h3,
+    .slider h5 {
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    section {
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="blue darken-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo" id="logo-container">AniWeeb</a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+      
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+  <div id="body-content"></div>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/regist-serviceworker.js"></script>
+</body>
+</html>
